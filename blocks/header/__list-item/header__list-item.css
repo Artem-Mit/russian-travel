@@ -1,0 +1,8 @@
+.header__list-item {
+  min-width: 30px;
+  min-height: 28px;
+}
+
+.header__list-item:nth-last-child(n+2) {
+  margin-right: 18px;
+}
