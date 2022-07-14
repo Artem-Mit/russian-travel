@@ -1,0 +1,12 @@
+.place {
+  display: grid;
+  grid-template: repeat(2, fit-content(460px)) / repeat(2, fit-content(1fr));
+  gap: 48px 40px;
+  grid-template-areas:
+  "Header URL"
+  "img p";
+}
+
+.place:not(:nth-child(1)) {
+  margin-top: 80px;
+}

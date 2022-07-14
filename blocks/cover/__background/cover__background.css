@@ -1,0 +1,15 @@
+.cover__background {
+  min-height: 740px;
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(42, 44, 47, .3), rgba(42, 44, 47, .3)), url(/images/cover-trains.jpg);
+  background-size: contain;
+}
+
+.cover__background:hover {
+  background-image: linear-gradient(rgba(42, 44, 47, .8), rgba(42, 44, 47, .8)), url(/images/cover-trains.jpg);
+}
