@@ -10,3 +10,27 @@
 .place:not(:nth-child(1)) {
   margin-top: 80px;
 }
+
+@media screen and (max-width: 1100px) {
+  .place {
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .place {
+    gap: 48px 28px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place {
+    grid-template-areas:
+    "Header"
+    "URL"
+    "img"
+    "p";
+    row-gap: 32px;
+    justify-items: center;
+  }
+}

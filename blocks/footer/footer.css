@@ -6,3 +6,25 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 1100px) {
+  .footer {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .footer {
+    margin-top: 88px;
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer {
+    margin-top: 64px;
+    max-width: 288px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}

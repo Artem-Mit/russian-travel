@@ -3,9 +3,16 @@
   margin-top: 32px;
   max-width: 360px;
   text-align: center;
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.22;
+}
+
+@media screen and (max-width: 425px) {
+  .cover__subtitle {
+    max-width: 288px;
+    margin-top: 16px;
+    font-size: 14px;
+    line-height: 1.14;
+  }
 }

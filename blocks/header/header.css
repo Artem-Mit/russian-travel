@@ -2,8 +2,28 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: auto;
+  margin: 0 auto;
   margin-top: 28px;
   max-width: 1184px;
   max-height: 52px;
 }
+
+@media screen and (max-width: 1100px) {
+  .header {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .header {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header {
+    margin-top: 16px;
+    max-width: 288px;
+  }
+}
+

@@ -5,3 +5,15 @@
   list-style: none;
   max-width: 690px;
 }
+
+@media screen and (max-width: 850px) {
+  .intro__list {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro__list {
+    max-width: 288px;
+  }
+}

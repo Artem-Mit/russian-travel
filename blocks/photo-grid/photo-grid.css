@@ -6,3 +6,29 @@
   grid-template: repeat(3, 213px) / repeat(4, 284px);
   gap: 16px 16px;
 }
+
+@media screen and (max-width: 1100px) {
+  .photo-grid {
+    max-width: 928px;
+    grid-template: repeat(4, 225px) / repeat(3, 300px);
+    gap: 14px 14px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .photo-grid {
+    max-width: 720px;
+    margin-top: 88px;
+    grid-template: repeat(6, 264px) / repeat(2, 352px);
+    gap: 16px 16px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .photo-grid {
+    max-width: 288px;
+    margin-top: 64px;
+    grid-template: repeat(12, 216px) / repeat(1, 288px);
+    row-gap: 12px;
+  }
+}
