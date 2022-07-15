@@ -4,7 +4,7 @@
   align-items: center;
   margin: 0 auto;
   margin-top: 28px;
-  max-width: 1184px;
+  max-width: calc(100% - 96px);
   width: 100%;
   min-height: 52px;
 }
@@ -17,14 +17,14 @@
 
 @media screen and (max-width: 850px) {
   .header {
-    max-width: 720px;
+    max-width: calc(100% - 48px);
   }
 }
 
 @media screen and (max-width: 425px) {
   .header {
     margin-top: 16px;
-    max-width: 288px;
+    max-width: calc(100% - 32px);
   }
 }
 
