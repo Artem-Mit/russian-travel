@@ -11,4 +11,4 @@
 Проект о путешествии по России.
 Верстка сделана для самых распространённых разрешениях экранов.
 
-### [Ссылка на проект](https://github.com/Artem-Mit/russian-travel.git)
+### [Ссылка на проект](https://artem-mit.github.io/russian-travel/)
