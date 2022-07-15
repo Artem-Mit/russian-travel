@@ -6,3 +6,10 @@
 .header__list-item:nth-last-child(n+2) {
   margin-right: 18px;
 }
+
+@media screen and (max-width: 425px) {
+  .header__list-item {
+    min-width: 22px;
+    min-height: 20px;
+  }
+}

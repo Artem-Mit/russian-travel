@@ -1,10 +1,11 @@
 .place {
   display: grid;
-  grid-template: repeat(2, fit-content(460px)) / repeat(2, fit-content(1fr));
   gap: 48px 40px;
   grid-template-areas:
   "Header URL"
   "img p";
+  grid-template-columns: minmax(min-content, max-content);
+  grid-template-rows: 1fr;
 }
 
 .place:not(:nth-child(1)) {
@@ -21,6 +22,9 @@
   .place {
     gap: 48px 28px;
   }
+  .place:not(:nth-child(1)) {
+    margin-top: 73px;
+  }
 }
 
 @media screen and (max-width: 425px) {
@@ -32,5 +36,8 @@
     "p";
     row-gap: 32px;
     justify-items: center;
+  }
+  .place:not(:nth-child(1)) {
+    margin-top: 50px;
   }
 }
